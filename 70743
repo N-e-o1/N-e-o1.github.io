@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aa.css">
+    <title>Document</title>
+</head>
+
+<body>
+    
+        <header><H1 id="home">2025 TOUR</H1>
+            <p id="headp">FROM <span style="color:#FDB813;" >SUN UP TO SUN DOWN</span>, TO SUN DOWN WE HAVE THE BEST PARTY IN TOWN</p>
+            <div id="infos">
+                <p>28-30juin</p>
+                <p>Location:Boom, Belgium</p>
+            </div>
+
+        </header>
+    <nav id="nav">
+        <ul id="ul">
+            <li class="li1"><a href="#home">Home</a></li>
+            <li class="li1"><a href="Gallery.html">Gallery</a></li>
+            <li class="li1"><a href="#tick">Tickettes</a></li>
+            <li class="li1"><a href="#buy">Buy</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h2>What Awaits You?</h2>
+        <section id="first"><p>🌟 Unmatched Lineup:
+            Prepare to be blown away by performances from world-class artists, DJs,
+            and rising talents across multiple genres. From heart-pounding beats to
+            soulful melodies, there’s
+            something for every music lover.</p>
+            <aside class='fst'><img src="Chester Bennington - Linkin Park.jpg" alt="festival"></aside>
+            <p>🌈 Immersive Atmosphere:
+                Our festival grounds are designed to 
+                    transport you to another world. Think vibrant lights,
+                    stunning stage designs, and interactive art installations
+                    that make every corner Instagram-worthy!</p>
+            <aside class="fst"><img src="Phantom, Rain, Sodo.jpg" class="idkbro"></aside>
+            <p>🎶 Community Vibes:
+                Feel the magic of shared moments with thousands of fellow music lovers.
+                    Whether you’re dancing under the stars or chilling in our cozy zones,
+                    this is the place to connect, celebrate, and create lifelong memories.</p>
+            <aside class="fst"><img src="rammies.jpg" class=""></aside>
+        </section>
+    </main>
+        <h2 id="tick">Tickets:</h2>
+        <div id="main">
+            <div id="vip">
+                <h3>-VIP-</h3>
+                <h5><i>VIP-CARD</i></h5>
+                <ul><p>Access:</p>
+                    <li>Priority fast-track entry and exit.</li>
+                    <li>Exclusive access to VIP-only viewing platforms and lounges near main stages.</li>
+                    <li>Backstage tours or artist meet-and-greet opportunities (optional, depending on the lineup).</li>
+                    <p>Facilities</p>
+                    <li>Complimentary premium beverages and snacks in VIP areas.</li>
+                    <li>Access to VIP-exclusive food stalls and bars.</li>
+                    <p>Perks:</p>
+                    <li>Free festival swag (t-shirts, tote bags, posters).</li>
+                    <li>Reserved parking spots or free shuttle service.</li>
+                    <li>Early access to festival schedules or lineups.</li>
+                    <li>Opportunities to book premium add-ons (e.g., private cabanas, bottle service).</li></ul>
+                    <form action="#buy"><button  class="huh" type="submit">Buy ticket for 200$</button></form>
+                
+            </div>
+            
+            <div id="normal">
+                <h3>-Normal-</h3>
+                <h5> <i>BASIC CARD</i></h5>
+                <ul>
+                    <p>Access:</p>
+                    <li>General admission to the festival. </li>
+                    <li>Access to all general performance stages and zones.</li>
+                    <li>Access to food trucks and drink stalls.</li>
+                    <li>Standard restroom facilities.</li>
+                    <p>Perks:</p>
+                    <li>Free festival merchandise (e.g., wristbands, badges).</li>
+                    <li>General standing/seating areas.</li>
+                    <p>Restrictions:</p>
+                    <li>No access to exclusive zones like backstage or VIP lounges.</li></ul>
+                    
+                    <form action="#buy"><button  class="huh"type="submit">Buy ticket for 100$</button></form>
+            </div>
+        </div>
+        <h3 id="buy">-BUY-</h3>   
+    
+    <form action="succes.html" >
+        <fieldset>
+            
+            <ul>
+                <li><label for="name" >Name and last name*:</label><input  id ="name"type="text"  placeholder="Nom et prenom" required></li>
+                <li><label for="email" >Email*: </label><input  id ="email"type="email" placeholder="exemple@.domaine.com" required> </li>
+                <li><label for="nb" >Carte number*:</label><input  id ="phone"type="number"  required> </li>
+                <li><label for="code" >Security code*:</label><input  id ="code" type="password"  required> </li>
+                <li>Payment methode*:<select name="statut" id="methode">
+                        <option value="1">Visa</option>
+                        <option value="2"> Credit card</option>
+                        <option value="3">Pay pal</option>
+                    </select></li>
+                <li><label for="quantity">Quantity</label><input type="number"></li>
+                 <li><label for="type">Your ticket:</label><input type="radio">vip ticket<input type="radio">normal ticket</li>
+                <button  class="sub" type="submit">Buy </button>
+                <button  class="sub" type="reset">Reset </button>
+    </fieldset>
+    </form>
+    <footer>
+        <p>Follow us on:
+            <a href="#" target="_blank">Instagram</a> | 
+            <a href="#" target="_blank">Twitter</a> | 
+            <a href="#" target="_blank">Facebook</a>
+        </p>
+        <p>&copy; 2025 Festival Tour. All rights reserved.</p>
+    </footer>
+        
+    
+</body>
+</html>
